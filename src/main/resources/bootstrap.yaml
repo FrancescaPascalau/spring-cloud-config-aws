@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-cloud-config-aws
+
+aws:
+  paramstore:
+    prefix: /config
+    profileSeparator: _
+    defaultContext: application
+    region: eu-west-1
