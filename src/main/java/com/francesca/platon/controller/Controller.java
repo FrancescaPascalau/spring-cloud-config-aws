@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-    @Value("${parameter-store.sample}")
+    @Value("${parameter-store.value}")
     private String parameter;
 
     @GetMapping

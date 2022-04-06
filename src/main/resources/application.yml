@@ -8,4 +8,14 @@ management:
         include: refresh
 
 parameter-store:
-  sample: Some value
+  value: Some value
+
+#cloud:
+#  aws:
+#    region:
+#      auto: false
+#      static: "eu-west-1"
+#    stack.auto: false
+#    credentials:
+#      accessKey: ${AWS_ACCESS_KEY_ID:foobar}
+#      secretKey: ${AWS_SECRET_ACCESS_KEY:foobar}
