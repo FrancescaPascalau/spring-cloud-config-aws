@@ -4,6 +4,7 @@ spring:
 
 aws:
   paramstore:
+    fail-fast: true
     prefix: /config
     profileSeparator: _
     defaultContext: application

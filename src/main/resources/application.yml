@@ -8,7 +8,7 @@ management:
         include: refresh
 
 parameter-store:
-  value: Some value
+  value: Some default value
 
 #cloud:
 #  aws:
