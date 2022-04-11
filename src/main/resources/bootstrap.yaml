@@ -1,6 +1,8 @@
 spring:
   application:
-    name: spring-cloud-config-aws
+    name: demo
+  config:
+    import: "aws-parameterstore:"
 
 aws:
   paramstore:
@@ -9,3 +11,4 @@ aws:
     profileSeparator: _
     defaultContext: application
     region: eu-west-1
+    enabled: true
