@@ -1,8 +1,8 @@
 spring:
   application:
     name: demo
-  config:
-    import: "aws-parameterstore:"
+#  config:
+#    import: "aws-parameterstore:"
 
 aws:
   paramstore:
